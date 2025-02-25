@@ -9,8 +9,7 @@
 
 .footerH3{
     color: #FFFFFF;
- 
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 5px;
 }
 
@@ -18,12 +17,13 @@
     color: #9CA3AF;
     width: 625px;
    text-align: center;
-   padding: 10px;
-   font-size: 18px;
+   padding: 5px;
+   font-size: 11px;
 }
 .footerDeveloper{
     color: #9CA3AF;
-    padding: 15px;
+    font-size: 11px;
+    padding: 10px;
 }
 .footerDeveloper a{
     color: white;
