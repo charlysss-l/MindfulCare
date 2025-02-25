@@ -293,3 +293,131 @@
 .readyLink:hover{
     color: blue;
 }
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .hero{
+        height: 70vh;
+    }
+    .hero h2{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 14px;
+        padding: 20px;
+    }
+    .heroButtonSupport, .heroButtonCoping{
+        font-size: 12px;
+        margin: 20px;
+        padding: 8px 16px;
+    }
+    
+    .need{
+        height: auto;
+        padding: 20px;
+    }
+    .needInfo{
+        width: 95%;
+        padding: 15px;
+    }
+    .needInfo h3{
+        font-size: 18px;
+    }
+    .needInfo p{
+        font-size: 14px;
+    }
+    
+    .how{
+        height: auto;
+        padding: 20px;
+    }
+    .howList{
+        flex-direction: column;
+    }
+    .list{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 10px 0;
+    }
+    .list h3{
+        font-size: 24px;
+    }
+    .list p{
+        font-size: 18px;
+    }
+    
+    .daily{
+        height: auto;
+        padding: 20px;
+    }
+    .daily h3{
+        font-size: 24px;
+    }
+    .dailyTips{
+        flex-direction: column;
+    }
+    .tip{
+        padding: 10px;
+    }
+    .tip h4{
+        font-size: 20px;
+    }
+    .tip p{
+        font-size: 16px;
+    }
+    .successStories{
+        height: auto;
+    }
+    .storyList{
+        flex-direction: column;
+    }
+    .stories{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 50px 0;
+    }
+    .stories h4{
+        font-size: 24px;
+    }
+    .stories p{
+        font-size: 16px;
+    }
+    
+    .report{
+        height: auto;
+        padding: 20px;
+    }
+    .reportList{
+        flex-direction: column;
+    }
+    .reportItem{
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        padding: 15px;
+    }
+    .reportItem h4{
+        font-size: 30px;
+    }
+    .reportItem p{
+        font-size: 16px;
+    }
+    
+    .ready{
+        height: auto;
+        padding: 30px;
+    }
+    .readyDiv h3{
+        font-size: 36px;
+    }
+    .readyDiv p{
+        font-size: 18px;
+    }
+    .readyLink{
+        padding: 15px;
+        font-size: 14px;
+    }
+}
