@@ -25,14 +25,14 @@ function MainLayout() {
 
   return (
     <div className="App">
-      {location.pathname !== "/landing" && <Navbar />}
+      {location.pathname !== "/" && <Navbar />}
 
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/coping" element={<Coping />} />
           <Route path="/support" element={<Support />} />
-          <Route path="/landing" element={<Landing />} />
+          <Route path="/" element={<Landing />} />
 
           <Route path="/article1" element={<Article1 />} />
           <Route path="/article2" element={<Article2 />} />

@@ -9,7 +9,7 @@ export default function landing() {
           Join our supportive community and connect with licensed professionals who<br/>understand and care. Start your journey to better mental health today.
         </p>
         <div className={styles.landingHeroButtons}>
-          <Link to="/">Get Started</Link>
+          <Link to="/home">Get Started</Link>
         </div>
       </section>
 

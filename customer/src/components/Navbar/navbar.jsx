@@ -6,13 +6,13 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <Link className={styles.logo} to="/">MindfulCare</Link>
+          <Link className={styles.logo} to="/home">MindfulCare</Link>
         </li>
         <li className={styles.navLinks}>
-          <Link className={styles.navlink} to="/">Home</Link>
+          <Link className={styles.navlink} to="/home">Home</Link>
           <Link className={styles.navlink} to="/coping">Coping Strategies</Link>
           <Link className={styles.navlink} to="/support">Get Support</Link>
-          <Link className={styles.navlink} to="/landing">Logout</Link>
+          <Link className={styles.navlink} to="/">Logout</Link>
         </li>
       </ul>
     </nav>
