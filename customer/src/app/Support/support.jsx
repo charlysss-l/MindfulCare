@@ -7,6 +7,7 @@ export default function support() {
 
     <div className={styles.connectList}>
         <div className={styles.connect}>
+          <img src="/images/psych1.jpg" alt="Mindful Breathing" className={styles.connectImage} />
           <h4>Dr. Aliea Nadela</h4>
           <h5>Licensed Clinical Psychologist</h5>
           <div className={styles.specialties}>
@@ -19,6 +20,7 @@ export default function support() {
         </div>
 
         <div className={styles.connect}>
+        <img src="/images/psych2.jpg" alt="Mindful Breathing" className={styles.connectImage} />
           <h4>Dr. Michael Chen</h4>
           <h5>Mental Health Counselor</h5>
           <div className="specialties">
@@ -31,6 +33,7 @@ export default function support() {
         </div>
 
         <div className={styles.connect}>
+        <img src="/images/psych3.jpg" alt="Mindful Breathing" className={styles.connectImage} />
           <h4>Dr. Emily Rodriguez</h4>
           <h5>Clinical Social Worker</h5>
           <div className="specialties">
