@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import styles from './home.module.css'
 export default function home() {
   return (
-    <div>
+    <div className={styles.Home}>
       <section className={styles.hero}>
           <h2>Your Journey to Better Mental <br/>Health Starts Here</h2>
           <p>

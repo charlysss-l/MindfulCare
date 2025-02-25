@@ -71,3 +71,41 @@
     transform: translateY(-5px); 
     transition: 0.3s ease-in-out;
 }
+
+@media (max-width: 768px) {
+    .copingSection {
+        height: auto;
+        padding: 20px;
+    }
+
+    .copingSection h3 {
+        font-size: 24px;
+    }
+
+    .articlesList {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article {
+        width: 90%; 
+        height: auto;
+        padding: 20px;
+    }
+
+    .articleImage {
+        height: 250px;
+    }
+
+    .article h4 {
+        font-size: 22px;
+    }
+
+    .article p {
+        font-size: 14px;
+    }
+
+    .article a {
+        font-size: 14px;
+    }
+}

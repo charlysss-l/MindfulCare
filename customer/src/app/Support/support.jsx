@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import styles from './support.module.css'
 export default function support() {
   return (
-     <div className={styles.copingSection}>
+     <div className={styles.connectSection}>
     <h3>Connect with Our Professionals</h3>
 
     <div className={styles.connectList}>
