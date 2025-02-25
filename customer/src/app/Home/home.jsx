@@ -129,11 +129,11 @@ export default function home() {
         </div>
       </section>
 
-      <section className="ready">
-        <div className="readyDiv">
+      <section className={styles.ready}>
+        <div className={styles.readyDiv}>
           <h3>Ready to Take the First Step?</h3>
           <p>Our team of professional counselors is here to support you on your journey to<br/>better mental health. Start your journey today.</p>
-          <Link to="/support">Connect with a Professional</Link>
+          <Link to="/support" className={styles.readyLink}>Connect with a Professional</Link>
         </div>
       </section>
     </div>
