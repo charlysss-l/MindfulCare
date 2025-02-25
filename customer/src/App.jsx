@@ -16,7 +16,7 @@ function App() {
 }
 
 function MainLayout() {
-  const location = useLocation(); // Get current route
+  const location = useLocation(); 
 
   return (
     <div className="App">
