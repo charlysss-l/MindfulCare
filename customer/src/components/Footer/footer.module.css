@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding-top: 20px;
+}
+
+.footerH3{
+    color: #FFFFFF;
+ 
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.footerP{
+    color: #9CA3AF;
+    width: 625px;
+   text-align: center;
+   padding: 10px;
+   font-size: 18px;
+}
+.footerDeveloper{
+    color: #9CA3AF;
+    padding: 15px;
+}
+.footerDeveloper a{
+    color: white;
+}
+.footerDeveloper a:hover{
+    color: rgb(249, 232, 232);
+}
