@@ -251,6 +251,9 @@
     align-items: center;
     border-radius: 20px;
 }
+.reportItem:hover{
+    transform: translateY(-5px); 
+}
 .reportItem h4{
     color: #3B82F6;
     font-size: 50px;
