@@ -1,0 +1,98 @@
+.landingHero{
+    background: #EFF6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: auto;
+    height: 100vh;
+}
+.landingHero h2{
+    font-size: 130px;
+    font-weight: 100;
+
+}
+.landingHero h2 span{
+    color: #2563EB;
+    padding: 0;
+    
+}
+.landingHero p{
+    padding-top:40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: #6B7280;
+}
+.landingHeroButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:40px;
+
+}
+.landingHeroButtons a{
+    background-color: #2563EB;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 20px;
+}
+.landingHeroButtons a:hover{
+    background-color: #1d4cb2;
+}
+
+/*Info*/
+.landingInfos{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.landingList{
+    display: flex;
+}
+.landingItem{
+    margin: 100px;
+}
+.landingItem h3{
+    color: #111827;
+    font-weight: 400;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.landingItem p{
+    color: #6B7280;
+    font-size: 25px;
+}
+/*Testimonials*/
+.testimonials{
+    height: 80vh;
+    background: #1D4ED8;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.landingTestimonials h3{
+    font-size: 80px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.landingTestimonials p{
+    color: #BFDBFE;
+    font-size: 30px;
+}
