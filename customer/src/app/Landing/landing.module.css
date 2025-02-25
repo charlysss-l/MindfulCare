@@ -1,98 +1,174 @@
-.landingHero{
+.landingHero {
     background: #EFF6FF;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2%;
-    margin: auto;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
     height: 100vh;
 }
-.landingHero h2{
-    font-size: 130px;
+.landingHero h2 {
+    font-size: 80px;
     font-weight: 100;
-
 }
-.landingHero h2 span{
+.landingHero h2 span {
     color: #2563EB;
     padding: 0;
-    
 }
-.landingHero p{
-    padding-top:40px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 30px;
+.landingHero p {
+    padding-top: 30px;
+    font-size: 25px;
     color: #6B7280;
 }
-.landingHeroButtons{
+.landingHeroButtons {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top:40px;
-
+    gap: 15px;
+    padding-top: 30px;
 }
-.landingHeroButtons a{
+.landingHeroButtons a {
     background-color: #2563EB;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
+    width: 250px;
     text-align: center;
-    margin: auto;
     color: white;
     border-radius: 20px;
-    font-size: 25px;
-    padding: 20px;
+    font-size: 22px;
+    padding: 15px;
 }
-.landingHeroButtons a:hover{
+.landingHeroButtons a:hover {
     background-color: #1d4cb2;
 }
 
-/*Info*/
-.landingInfos{
-    height: 30vh;
+
+.landingInfos {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: auto;
+    padding: 50px 5%;
 }
-.landingList{
+.landingList {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 }
-.landingItem{
-    margin: 100px;
+.landingItem {
+    max-width: 300px;
+    margin: 20px;
 }
-.landingItem h3{
+.landingItem h3 {
     color: #111827;
     font-weight: 400;
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 15px;
 }
-.landingItem p{
+.landingItem p {
     color: #6B7280;
-    font-size: 25px;
+    font-size: 16px;
 }
-/*Testimonials*/
-.testimonials{
-    height: 80vh;
+
+.testimonials {
+    height: auto;
     background: #1D4ED8;
     color: white;
     display: flex;
     flex-direction: column;
-    margin: auto;
-    justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 20px;
+    padding: 50px 5%;
 }
-.landingTestimonials h3{
-    font-size: 80px;
+.landingTestimonials h3 {
+    font-size: 60px;
     font-weight: 100;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
-.landingTestimonials p{
+.landingTestimonials p {
     color: #BFDBFE;
-    font-size: 30px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .landingHero h2 {
+        font-size: 60px;
+    }
+    .landingHero p {
+        font-size: 22px;
+    }
+    .landingHeroButtons a {
+        width: 200px;
+        font-size: 20px;
+        padding: 12px;
+    }
+    .landingTestimonials h3 {
+        font-size: 50px;
+    }
+    .landingTestimonials p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .landingHero {
+        height: auto;
+        padding: 10% 5%;
+    }
+    .landingHero h2 {
+        font-size: 50px;
+    }
+    .landingHero p {
+        font-size: 20px;
+    }
+    .landingHeroButtons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .landingHeroButtons a {
+        width: 180px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .landingList {
+        flex-direction: column;
+        align-items: center;
+    }
+    .landingItem {
+        max-width: 90%;
+    }
+    .landingTestimonials h3 {
+        font-size: 40px;
+    }
+    .landingTestimonials p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .landingHero h2 {
+        font-size: 40px;
+    }
+    .landingHero p {
+        font-size: 18px;
+    }
+    .landingHeroButtons a {
+        width: 160px;
+        font-size: 16px;
+        padding: 8px;
+    }
+    .landingItem h3 {
+        font-size: 18px;
+    }
+    .landingItem p {
+        font-size: 14px;
+    }
+    .landingTestimonials h3 {
+        font-size: 35px;
+    }
+    .landingTestimonials p {
+        font-size: 18px;
+    }
 }

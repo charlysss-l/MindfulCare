@@ -296,6 +296,41 @@
 
 
 /* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .hero h2 {
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 14px;
+        padding: 30px;
+    }
+    .howList {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list {
+        width: 45%;
+        height: auto;
+    }
+    .dailyTips {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tip {
+        padding: 15px;
+        width: 45%;
+    }
+    .storyList {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stories {
+        width: 45%;
+        height: auto;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .hero{
         height: 70vh;
