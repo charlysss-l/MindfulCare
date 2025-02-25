@@ -44,82 +44,85 @@ export default function home() {
         </div>
       </section>
 
-      <section className="daily">
+      <section className={styles.daily}>
         <h3>Daily Mental Health Tips</h3>
-        <div className="dailyTips">
-            <div className="tip">
+        <div className={styles.dailyTips}>
+            <div className={styles.tip}>
                 <h4>Mindfulness</h4>
                 <p>Take 5 deep breaths when<br/> feeling overwhelmed</p>
             </div>
 
-            <div className="tip">
+            <div className={styles.tip}>
                 <h4>Self-Care</h4>
                 <p>Schedule regular breaks<br/>throughout your day</p>
             </div>
 
-            <div className="tip">
+            <div className={styles.tip}>
                 <h4>Growth</h4>
                 <p>Celebrate small wins and<br/> progress</p>
             </div>
 
-            <div className="tip">
+            <div className={styles.tip}>
                 <h4>Connection</h4>
                 <p>Reach out to one person<br/>you trust today</p>
             </div>
         </div>
       </section>
     
-      <section className="successStories">
+      <section className={styles.successStories}>
         <h3>Success Stories</h3>
-          <div className="stories">
-              <div className="storyName">
-                <h4>Sarah M.</h4>
-                <h6>MindfulCare Member</h6>
+        <div className={styles.storyList}>
+            <div className={styles.stories}>
+                  <div className={styles.storyName}>
+                    <h4>Sarah M.</h4>
+                    <h6>MindfulCare Member</h6>
+                  </div>
+                  <div className={styles.storyReview}>
+                    <p>MindfulCare helped me develop<br/> healthy coping mechanisms during<br/> a difficult time.</p>
+                  </div>
               </div>
-              <div className="storyReview">
-                <p>MindfulCare helped me develop<br/> healthy coping mechanisms during<br/> a difficult time.</p>
-              </div>
-          </div>
 
-          <div className="stories">
-              <div className="storyName">
-                <h4>James R.</h4>
-                <h6>MindfulCare Member</h6>
+              <div className={styles.stories}>
+                  <div className={styles.storyName}>
+                    <h4>James R.</h4>
+                    <h6>MindfulCare Member</h6>
+                  </div>
+                  <div className={styles.storyReview}>
+                    <p>The professionals here gave me<br/> tools to manage my anxiety<br/> effectively.</p>
+                  </div>
               </div>
-              <div className="storyReview">
-                <p>The professionals here gave me<br/> tools to manage my anxiety<br/> effectively.</p>
-              </div>
-          </div>
 
-          <div className="stories">
-              <div className="storyName">
-                <h4>Emily L.</h4>
-                <h6>MindfulCare Member</h6>
+              <div className={styles.stories}>
+              <div className={styles.storyName}>
+                    <h4>Emily L.</h4>
+                    <h6>MindfulCare Member</h6>
+                  </div>
+                  <div className={styles.storyReview}>
+                    <p>24/7 support made all the<br/>difference in my recovery journey.</p>
+                  </div>
               </div>
-              <div className="storyReview">
-                <p>24/7 support made all the<br/>difference in my recovery journey.</p>
-              </div>
-          </div>
+        </div>
+
       </section>
 
-      <section className="report">
-        <div className="reportList">
-            <div className="reportItem">
+      <section className={styles.report}>
+        <div className={styles.reportList}>
+            <div className={styles.reportItem}>
               <h4>24/7</h4>
               <p>Support Available</p>
             </div>
 
-            <div className="reportItem">
+            <div className={styles.reportItem}>
               <h4>50+</h4>
               <p>Licensed Therapists</p>
             </div>
 
-            <div className="reportItem">
+            <div className={styles.reportItem}>
               <h4>10k+</h4>
               <p>People Helped</p>
             </div>
 
-            <div className="reportItem">
+            <div className={styles.reportItem}>
               <h4>95%</h4>
               <p>Satisfaction Rate</p>
             </div>
